@@ -1,0 +1,186 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;   
+    background-position: center ; 
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url(./imges/istockphoto-874724756-1024x1024.jpg);
+    background-attachment: fixed;
+
+
+}
+
+
+header{
+    background-color: #030303af;
+    height: 100px;
+    font-size: 60px;
+    color : rgb(248, 82, 21) ;
+    text-align: center;
+
+}
+
+header>p{
+    margin-bottom: 1rem;
+}
+nav{
+    padding: 5px;
+    margin-top: 120px;
+    
+
+}
+
+
+#impgHeader{
+    height: 70px;
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 10rem;
+
+
+}
+
+
+#imgback{
+
+
+  background-image: url(/imges/ABC-Mundo-Crypto-CriptoTendencia.jpg);
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+
+
+}
+
+.collapse  .spinner-border{
+
+  
+  left:0 !important;
+  position: relative !important;
+  margin:  auto !important; 
+
+
+}
+.collapse #loader{
+  margin-top: 1px ; 
+}
+
+/* Main loader */
+.mainCtr .row .spinner-border{  
+  top: 50%;
+  position: fixed;
+  left:50%;
+  margin-left: -3.5rem;
+
+}
+
+.moreInfoCard{
+
+    margin-top: 1rem;
+
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position:absolute;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    right: 10%;
+
+  }
+
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+
+  .slider.round {
+    border-radius: 34px;
+  }
+
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  #rotemiluz{
+    width: 12rem;
+    height: 12rem; 
+    border-radius: 50%;
+    
+
+  
+  }
+  
+  #aboutMe{
+    background: #0f110f;
+    width: 1200px;
+    height: 530px;
+    padding: 10px;
+  }
+  
+  .header{
+
+text-align: center;
+color: orangered;
+padding-top: 10px;
+font-size: 70px;
+
+  }
+.prg{
+
+color: wheat;
+padding-top: 40px;
+padding-right: 80px;
+
+}
